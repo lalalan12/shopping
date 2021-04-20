@@ -1,0 +1,126 @@
+/* sk秒杀 */
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    border-left: 2px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    padding: 0 30px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    padding-top: 18px;
+    padding-left: 5px;
+}
+
+
+.sk_bd ul li {
+    float: left;
+    margin: 10px 12px 0 0px;
+}
+
+.sk_bd ul li a:hover {
+    border: 1px solid #ed282e;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li a {
+    display: block;
+    width: 290px;
+    height: 460px;
+    color: #000;
+    border: 1px solid transparent;
+}
+
+.sk_bd_xx {
+    width: 290px;
+    height: 460px;
+}
+
+.sk_bd_xx_ct {
+    height: 110px;
+    padding: 0 14px;
+    margin-top: 10px;
+}
+
+.sk_bd_xx_ct span {
+    display: block;
+    height: 40px;
+    margin: 3px 0;
+    line-height: 40px;
+}
+
+.sk_bd_xx_ct h2 {
+    float: left;
+    margin-right: 8px;
+    color: #ed282e;
+}
+
+.sk_bd_xx_ct h4 {
+    float: left;
+    color: #bfbfbf;
+    text-decoration: line-through;
+}
+
+.sk_bd_xx_ct h5 {
+    float: left;
+    font-weight: 400;
+}
+
+.sk_jdt {
+    float: left;
+    width: 132px;
+    height: 12px;
+    margin: 2px 10px 0 10px;
+    border: 1px solid #ed282e;
+    border-radius: 5px;
+
+}
+
+.sk_jdt_in {
+    width: 87%;
+    height: 100%;
+    background-color: #ed282e;
+}
+
+.sk_bd_btn button {
+    width: 290px;
+    height: 48px;
+    background-color: #b1191a;
+    color: #fff;
+}
